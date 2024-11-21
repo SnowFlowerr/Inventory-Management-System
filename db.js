@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-const mongoURI="mongodb+srv://dhonirajput208:Govindrajput@cluster0.xfnnv.mongodb.net/INVENTORY-MANAGEMENT";
+const mongoURI=process.env.MongoDb;
 
 const connectToMongo=async()=>{
     try {
